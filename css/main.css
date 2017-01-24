@@ -1,0 +1,374 @@
+@CHARSET "UTF-8";
+
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html, button, input, select, textarea {
+	color: #222;
+}
+html {
+	font-size: 1em;
+	line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+ background: #b3d4fc;
+ text-shadow: none;
+}
+
+::selection {
+ background: #b3d4fc;
+ text-shadow: none;
+}
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #f26213;
+	margin: 1em 0;
+	padding: 0;
+}
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/493
+ */
+
+audio, canvas, img, video {
+	vertical-align: middle;
+}
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+	resize: vertical;
+}
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
+}
+
+.clear {clear: both;}
+
+
+/* -- start Master page -- */
+
+body {
+	font-family: Arial, Helvetica, tahoma, verdana, 宋体, SimSun, 华文细黑, STXihei, sans-serif; /*Calibri, Arial, Helvetica, sans-serif, SimSun-ExtB; */
+	font-size:14px;
+	line-height:18px;
+	color:#000000;
+	background: #4d86e0 url("../i/bg_blue.png") repeat left top;
+}
+
+h1 {color: #0a14de; font-size:32px; font-weight:900;	line-height:45px;	margin-bottom: 10px;}
+h2 {color: #5c1309; font-size:28px; font-weight:600;	line-height:35px; text-align:center;	} 
+h3 {color: #de0202; font-size:28px; font-weight:600;	line-height:35px; text-align:center;	} 
+h4 {color: #000; font-size:22px; font-weight:300;	line-height:34px;	}
+h5 {color: #000; font-size:18px; font-weight:400;	line-height:24px;	}
+h6 {color: #000; font-size:12px; font-weight:300;	line-height:18px;	text-align:center;}
+
+/* General link styling 
+a:link {
+	font-weight:bold;
+	text-decoration:none;
+	color:#192640;
+}
+a:hover {
+	text-decoration:underline;
+	color:#1c47a0;
+}
+a:visited {
+	font-weight:bold;
+	text-decoration:none;
+	color:#192640;
+}
+*/
+/* -- start Master page -- */
+
+/* #Loading screen */
+.loading1 {
+	filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block; background-color: #000; top: 0px; left: 0px;width: 100%; height:100%;
+}   
+.loading2 {
+	position: absolute; display: block; background: url(../i/loading.gif) no-repeat center center; top: 0px; left: 0px;width: 100%;height:100%;
+}           
+
+/* #region Bullet Navigator Skin Begin - jssor slider bullet navigator skin 05 css */
+/*
+.jssorb05 div           (normal)
+.jssorb05 div:hover     (normal mouseover)
+.jssorb05 .av           (active)
+.jssorb05 .av:hover     (active mouseover)
+.jssorb05 .dn           (mousedown)
+*/
+.jssorb05 {
+    position: absolute; bottom: 16px; right: 6px;
+}
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+    position: absolute;
+    width: 16px;      /* size of bullet elment */
+    height: 16px;
+    background: url(../i/b05.png) no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+.jssorb05 div { background-position: -7px -7px; }
+.jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+.jssorb05 .av { background-position: -67px -7px; }
+.jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+/* -- #region Bullet Navigator Skin End -- */
+
+/* --#region Arrow Navigator Skin Begin -- jssor slider arrow navigator skin 11 css */
+/*
+.jssora11l                  (normal)
+.jssora11r                  (normal)
+.jssora11l:hover            (normal mouseover)
+.jssora11r:hover            (normal mouseover)
+.jssora11l.jssora11ldn      (mousedown)
+.jssora11r.jssora11rdn      (mousedown)
+*/
+.jssora11l, .jssora11r {
+    display: block;
+    position: absolute;
+    width: 37px;				/* size of arrow element */
+    height: 37px;
+    cursor: pointer;
+    background: url(../i/a11.png) no-repeat;
+    overflow: hidden;
+}
+.jssora11l { background-position: -11px -41px; top: 123px; left: 8px;}
+.jssora11r { background-position: -71px -41px; top: 123px; right: 8px;}
+.jssora11l:hover { background-position: -131px -41px; }
+.jssora11r:hover { background-position: -191px -41px; }
+.jssora11l.jssora11ldn { background-position: -251px -41px; }
+.jssora11r.jssora11rdn { background-position: -311px -41px; }
+
+/* --#region Arrow Navigator Skin End -- */
+          
+       
+/* --#region left menu navigation begin -- */
+.leftNav {display:inline; float:left; width:100%; }
+.leftNav ul {	margin-left: 0;	padding-left: 0; list-style-type: none; }
+.leftNav a {
+	display: block;
+	width:100%;
+	height:36px;
+	/*background-color: #f7a256;*/
+	background-image: url(../i/navbar1.png);
+	border-bottom: 4px solid #eee;
+	padding-top:8px;
+	padding-left:16px;
+	color:#000000;
+	font-size:20px;
+	font-weight:600;
+}
+.leftNav a:link, #navlist a:visited {
+	text-decoration: none;
+}
+.leftNav a:hover {
+	background-color: #fff;
+	color: #f2270c;
+}
+.langswitcher {float:right;	padding:6px 30px 4px 0; font-weight:600; color:#c10a0a;	}
+.langswitcher a {color:#c10a0a; text-decoration:none;	}
+.langswitcher a:hover{color:#fff;	}
+
+/* start Home page slider */
+.slideContainer {
+	visibility: hidden; 
+	position: relative; 
+	margin: 0 auto; 
+	width: 1170px; 
+	height: 493px; 
+	overflow: hidden;
+}
+.slides {
+	cursor: move; 
+	position: absolute; 
+	left: 0px; 
+	top: 0px; 
+	width: 1170px; 
+	height: 493px;
+  overflow: hidden;
+}
+
+.slide-caption-container { position:absolute; top:40px; left:40px; width:500px; height:150px; text-align:center; color:#de1b1b; font-weight:600;}
+.slide-caption-cn { font-size:40px; font-family: Arial, Helvetica, tahoma, verdana, KaiTi, 楷体, 宋体, SimSun, 华文细黑, STXihei, sans-serif; line-height:42px; }
+.slide-caption-vn { font-size:20px; line-height:32px; }
+.slide-caption-en { font-size:22px; line-height:32px; }
+
+/* end of Home page slider */
+
+/* start general content page slider */
+.slideContainerG {
+	visibility: hidden; 
+	position: relative; 
+	margin: 0 auto; 
+	width: 1170px; 
+	height: 200px; 
+	overflow: hidden;
+}
+.slidesG {
+	cursor: move; 
+	position: absolute; 
+	left: 0px; 
+	top: 0px; 
+	width: 1170px; 
+	height: 200px;
+  overflow: hidden;
+}
+/* end of general content page slider */
+
+/* start overwrite BootStrap style  */
+.navbar-default {margin-bottom: 0px; background-image:url(../i/navbar1.png);}
+#navbar ul li a {color:#000;font-size:22px;font-weight:600;}
+#navbar ul li a:hover {color:#fff;}
+.dropdown-menu { background-color: #ef933c; } 
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    background-color: #ef933c;
+    color: #fff;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #ef933c; 
+    background-image:url(../i/navbar1.png);
+}
+.navbar-collapse[aria-expanded="true"] {background-color:#ef933c;}
+
+.breadcrumb {
+    background-color:transparent;
+    list-style: outside none none;
+    margin-bottom: 5px;
+    padding: 0 15px 0 15px;
+}
+.breadcrumb > li + li::before {
+    color: #03041b;
+    content: " > ";
+    padding: 0 5px;
+}
+.breadcrumb > .active {
+    color: #111888;
+    font-weight:600;
+}
+
+
+/* end of overwrite BootStrap style  */
+
+footer {text-align:center; color:#9d0f04; font-weight:600;}
+footer .copyRight {font-size:12px; font-weight:400; color:#000000;}
+
+/* -- end of Master page -- */
+
+
+/* -- start Content page -- */
+.main-content { padding:10px 15px 15px 15px; background: url(../i/bg-yellow2.png) repeat center center; }
+.supertitle-cn 
+{
+	font-family: Arial, Helvetica, tahoma, verdana, KaiTi, 楷体, 宋体, SimSun, 华文细黑, STXihei, sans-serif;
+	color: #5c1309; font-size:34px; font-weight:900;	line-height:45px;	margin-bottom: 10px;
+}
+.title-cn 
+{
+	font-family: Arial, Helvetica, tahoma, verdana, KaiTi, 楷体, 宋体, SimSun, 华文细黑, STXihei, sans-serif;
+  color: #5c1309; font-size:28px; font-weight:800;	line-height:35px;	
+}
+.subtitle-cn 
+{
+  color: #000; font-size:18px; font-weight:600;	line-height:22px;	
+}
+
+.subtitle-vn 
+{
+  color: #000; font-size:16px; font-weight:400;	line-height:26px;	
+}
+
+.txt-cn 
+{
+	color: #000; font-size:16px; font-weight:300;	line-height:24px;	
+}
+.back2top {float:right; font-size:12px; font-weight:400;}
+
+.float-img {float: left; margin:0 20px 20px 0 }
+.float-txt {text-align: justify;  }
+h4:before, p:before {content:""; min-width:10em; display:block;overflow:hidden;clear:right;}
+
+/* -- end of Content page -- */
+
+/* -- start Dafault page -- */
+ul#weeklynews { list-style-image: url('../i/icon_find.png'); }
+ul#weeklynews li a { font-size:16px; font-weight:600; line-height:24px;	color:#192640; text-decoration:none; }
+ul#weeklynews li a:hover {color:#c73210; text-decoration:underline;}
+ul#weeklynews li a:visited {color:#192640; text-decoration:none;	}
+
+.act-title {font-size:14px; font-weight:600; line-height:22px; color:#c4370c;} 
+.act-content {font-size:12px; font-weight:500;} 
+
+/* -- start origin page, shangshi page -- */
+ul#para-link { list-style-image: url('../i/icon_point22.png'); padding-left:-20px; }
+ul#para-link li {margin-top: 10px;}
+
+.shangshi-sub-title{color: #5c1309; font-size:22px; font-weight:600;	line-height:30px; text-align:center;}
+
+/* -- start event page -- */
+.event-style div{margin-bottom:20px; min-height:200px;}    
+.event-style a {color:#000;}
+.event-style a:link {color:#000; text-decoration:none;}
+.event-style a:hover {color:#000; text-decoration:none;}
+.event-style .event-title{    
+  margin-top:0;text-align:center; color: #1b3fa9; font-size:16px; font-weight:500;	line-height:22px;	
+}
+.event-style .readmore {color:#ca170a; font-weight:600;}
+
+.photo-notes {color:blue; font-weight:600; font-size:14px; text-align:center;}
+
+.photoindex {margin-bottom:20px; min-height:240px;}
+
+/* -- Article page --*/
+.articlecontent p{
+	  font-family: Arial, Helvetica, tahoma, verdana, KaiTi, 楷体, 宋体, SimSun, 华文细黑, STXihei, sans-serif;
+	  font-size: 20px;
+	  font-weight: 600;
+	  text-decoration: none;
+	  line-height:28px;
+	  color: #333333;
+
+}
+
+/* -- Contact Us **/
+.txtred {	font-size:16px; color:#d91b07; }
+.btn-default {font-weight:800;}
