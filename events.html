@@ -107,7 +107,7 @@
     <div class="row featurette">
         <h3>2017</h3>
         <div class="col-xs-12 col-sm-4 col-md-3">
-            <a class="singlephoto fancybox.iframe" title="" href="photo.aspx?p=2017Spring&mx=20>">
+            <a class="singlephoto fancybox.iframe" title="" href="photo.aspx?p=2017Spring&mx=20">
                 <div class="well well-sm" style="margin-bottom:20px;">
                     <img src="../i/photo/2017.JPG" class="img-responsive" alt="春节晚会">
                     <h6>2017 春节晚会</h6>
@@ -119,7 +119,7 @@
     <div class="row featurette">
         <h3>2016</h3>
         <div class="col-xs-12 col-sm-4 col-md-3">
-            <a class="singlephoto fancybox.iframe" title="" href="photo.aspx?p=2016Spring&mx=20>">
+            <a class="singlephoto fancybox.iframe" title="" href="photo.html?d=20160220Fine&mx=20">
                 <div class="well well-sm" style="margin-bottom:20px;">
                     <img src="../i/photo/2016_350x225.JPG" class="img-responsive" alt="春节晚会">
                     <h6>2016 春节晚会</h6>
@@ -129,6 +129,27 @@
     </div>
 
         <!-- Page Content End here -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".singlephoto").fancybox({
+                maxWidth: 800,
+                maxHeight: 800,
+                fitToView: true,
+                width: '100%',
+                height: '100%',
+                autoSize: false,
+                closeClick: false,
+                openEffect: 'none',
+                closeEffect: 'none',
+                helpers: {
+                    title: {
+                        type: 'inside',
+                        position: 'top'
+                    }
+                }
+            });
+        });
+    </script>
 
         <hr />  <!-- featurette-divider -->
 
