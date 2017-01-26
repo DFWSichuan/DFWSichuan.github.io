@@ -92,7 +92,7 @@ body {
 	font-size:14px;
 	line-height:18px;
 	color:#000000;
-	background: #4d86e0 url("../i/bg_blue.png") repeat left top;
+	background: #4d86e0 url("../i/web/bg_blue.png") repeat left top;
 }
 
 h1 {color: #0a14de; font-size:32px; font-weight:900;	line-height:45px;	margin-bottom: 10px;}
@@ -125,7 +125,7 @@ a:visited {
 	filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block; background-color: #000; top: 0px; left: 0px;width: 100%; height:100%;
 }   
 .loading2 {
-	position: absolute; display: block; background: url(../i/loading.gif) no-repeat center center; top: 0px; left: 0px;width: 100%;height:100%;
+	position: absolute; display: block; background: url(../i/web/loading.gif) no-repeat center center; top: 0px; left: 0px;width: 100%;height:100%;
 }           
 
 /* #region Bullet Navigator Skin Begin - jssor slider bullet navigator skin 05 css */
@@ -143,7 +143,7 @@ a:visited {
     position: absolute;
     width: 16px;      /* size of bullet elment */
     height: 16px;
-    background: url(../i/b05.png) no-repeat;
+    background: url(../i/web/b05.png) no-repeat;
     overflow: hidden;
     cursor: pointer;
 }
@@ -168,7 +168,7 @@ a:visited {
     width: 37px;				/* size of arrow element */
     height: 37px;
     cursor: pointer;
-    background: url(../i/a11.png) no-repeat;
+    background: url(../i/web/a11.png) no-repeat;
     overflow: hidden;
 }
 .jssora11l { background-position: -11px -41px; top: 123px; left: 8px;}
@@ -189,7 +189,7 @@ a:visited {
 	width:100%;
 	height:36px;
 	/*background-color: #f7a256;*/
-	background-image: url(../i/navbar1.png);
+	background-image: url(../i/web/navbar1.png);
 	border-bottom: 4px solid #eee;
 	padding-top:8px;
 	padding-left:16px;
@@ -255,7 +255,7 @@ a:visited {
 /* end of general content page slider */
 
 /* start overwrite BootStrap style  */
-.navbar-default {margin-bottom: 0px; background-image:url(../i/navbar1.png);}
+.navbar-default {margin-bottom: 0px; background-image:url(../i/web/navbar1.png);}
 #navbar ul li a {color:#000;font-size:22px;font-weight:600;}
 #navbar ul li a:hover {color:#fff;}
 .dropdown-menu { background-color: #ef933c; } 
@@ -266,7 +266,7 @@ a:visited {
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
     color: #fff;
     background-color: #ef933c; 
-    background-image:url(../i/navbar1.png);
+    background-image:url(../i/web/navbar1.png);
 }
 .navbar-collapse[aria-expanded="true"] {background-color:#ef933c;}
 
@@ -296,7 +296,7 @@ footer .copyRight {font-size:12px; font-weight:400; color:#000000;}
 
 
 /* -- start Content page -- */
-.main-content { padding:10px 15px 15px 15px; background: url(../i/bg-yellow2.png) repeat center center; }
+.main-content { padding:10px 15px 15px 15px; background: url(../i/web/bg-yellow2.png) repeat center center; }
 .supertitle-cn 
 {
 	font-family: Arial, Helvetica, tahoma, verdana, KaiTi, 楷体, 宋体, SimSun, 华文细黑, STXihei, sans-serif;
@@ -330,7 +330,7 @@ h4:before, p:before {content:""; min-width:10em; display:block;overflow:hidden;c
 /* -- end of Content page -- */
 
 /* -- start Dafault page -- */
-ul#weeklynews { list-style-image: url('../i/icon_find.png'); }
+ul#weeklynews { list-style-image: url('../i/web/icon_find.png'); }
 ul#weeklynews li a { font-size:16px; font-weight:600; line-height:24px;	color:#192640; text-decoration:none; }
 ul#weeklynews li a:hover {color:#c73210; text-decoration:underline;}
 ul#weeklynews li a:visited {color:#192640; text-decoration:none;	}
@@ -339,7 +339,7 @@ ul#weeklynews li a:visited {color:#192640; text-decoration:none;	}
 .act-content {font-size:12px; font-weight:500;} 
 
 /* -- start origin page, shangshi page -- */
-ul#para-link { list-style-image: url('../i/icon_point22.png'); padding-left:-20px; }
+ul#para-link { list-style-image: url('../i/web/icon_point22.png'); padding-left:-20px; }
 ul#para-link li {margin-top: 10px;}
 
 .shangshi-sub-title{color: #5c1309; font-size:22px; font-weight:600;	line-height:30px; text-align:center;}
